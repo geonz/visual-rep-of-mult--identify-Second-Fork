@@ -9,7 +9,7 @@ function changeBackgrounds(selectorStr, bgColor) {
 
   for (let n=factSet-1; n<factNum*factSet; n+=factSet)
   
- { d[n].style.backgroundColor="orange";}
+ { d[n].style.backgroundColor=bgColor;}
  
 }
   
