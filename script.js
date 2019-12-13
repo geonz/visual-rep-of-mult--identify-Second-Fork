@@ -1,9 +1,9 @@
  
-var factNum=1;// the starting number to be multiplied by; the 'answer'
-var factSet=2;  // the facts you're practicing:   the twos for this.  this is arbitrary right now; I'll figure out how to make this happen in proper sequence later.  
+var factNum=5;// the starting number to be multiplied by; the 'answer'
+var factSet=4;  // the facts you're practicing:   the twos for this.  this is arbitrary right now; I'll figure out how to make this happen in proper sequence later.  
 // okay I am going to make this again and hope it doesn't just decide to disappearl.   
 
-var c=[];
+
  
 
 // to show number chart 1 to 100 with every N div in a different color.  RIght now it's set so it only shows enough for your facts (e.g. for the 2's it would only go to 20).   I wnat both options. 
@@ -14,9 +14,9 @@ function createMultImage()
    let numMax = factSet*10;
   for (let num=1; num<=numMax; num++)
   { 
-     multPicHTML +=' <div class="item"> ' + num + ' </div>';
-     // okay, this doesn't break things but I don't know how to tell whether the id is being given to the div. 
-    //  multPicHTML +='  <div class = "item" id="d'+num + '" >' + num + ' </div>'; 
+     //multPicHTML +=' <div class="item"> ' + num + ' </div>'; 
+     // oh, let's give them each an ID
+     multPicHTML +='  <div class = "item" id="d'+num + '" >' + num + ' </div>'; 
      
   }
  
