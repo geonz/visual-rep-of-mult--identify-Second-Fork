@@ -1,5 +1,5 @@
  
-changeBackgrounds('section > div','yellow');
+//changeBackgrounds('section > div','yellow');
 
 
 

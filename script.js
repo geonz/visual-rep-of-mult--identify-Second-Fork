@@ -27,17 +27,7 @@ function createMultImage()
 
     } 
 }
- // this doesn't work for *item* but it does for button
-// changeBackgrounds('.button1','yellow');
-// function changeBackgrounds(selectorStr, bgColor) {
-//   let newColor=bgColor;
-//   let thing=selectorStr;
-//  document.querySelectorAll('.button1').forEach(elem=>{elem.style.backgroundColor=newColor;});
-//  // document.querySelectorAll('.item').style.color=newColor;;
-//   //box.style.color=bgcolor;
-//   //document.getElementById("start").style.color=newColor;
-    
-// }
+ 
  
 
 // Following code: so hitting enter is like clicking "check answer."
@@ -115,7 +105,7 @@ else
    A1.innerHTML=  factSet + " x " + factNum + " =" + ' <input type="number" id="multAnswer"  size="1" maxlength="2"/>';
  check1.disabled=false;
 }
-
+changeBackgrounds('section > div','yellow');
 }
 
 
